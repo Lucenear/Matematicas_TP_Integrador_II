@@ -116,7 +116,8 @@ def ejecutar_opcion(opcion):
         print("Personas nacidas en año impar:", impares)
 
         #Mostramos producto cartesiano
-        print("Producto cartesiano (año, edad):", cartesiano)
+        for par in cartesiano:
+            print("Producto cartesiano (año, edad):", par)
 
 
         # comprobamos si TODOS son del grupo Z

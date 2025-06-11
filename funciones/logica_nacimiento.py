@@ -109,13 +109,12 @@ def grupo_edades(fechas):
 
 #Generamos producto cartesiano
 def producto_cartesiano(fechas, edades):
-    #armamos lista
+    # Extraemos solo los valores para crear los conjuntos de (años y edades)
+    lista_fechas = set(fechas.values())  # {1977, 2000, 2001, 2003}
+    lista_edades = set(edades.values())  # {22, 24, 25, 48}
     resultado = []
-
-    #recorremes personas y años
-    for nombre, año in fechas.items():
-        #agregamos tupla de esa persona (2 valeres)
-        resultado.append((año, edades[nombre]))
-
-    #retorno listo
+    # Producto cartesiano entre años y edades
+    for fecha in lista_fechas:
+        for edad in lista_edades:
+            resultado.append((fecha, edad))
     return resultado
