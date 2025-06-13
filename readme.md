@@ -1,6 +1,6 @@
-# 🧩 Trabajo Práctico Integrador II - Matemáticas y Programación
+# 🧩 Trabajo Práctico Integrador II - Matemática y Programación
 
-Trabajo práctico integrador de Matemáticas, correspondiente a la **Tecnicatura Universitaria en Programación a Distancia**, dictada por la **UTN**.
+Trabajo práctico integrador de Matemática, correspondiente a la **Tecnicatura Universitaria en Programación a Distancia**, dictada por la **UTN**.
 
 ---
 
